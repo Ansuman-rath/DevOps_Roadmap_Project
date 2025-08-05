@@ -20,4 +20,3 @@ The script outputs:
 
 ---
 
-
