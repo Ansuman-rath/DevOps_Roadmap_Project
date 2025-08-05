@@ -1,5 +1,7 @@
 # Log Archiver Tool
 
+[Log Archiver Tool](https://roadmap.sh/projects/log-archive-tool)
+
 A simple Bash script to archive log files from a specified directory into a compressed `.tar.gz` file. This helps in cleaning up old logs while keeping them backed up for future reference.
 
 ---
