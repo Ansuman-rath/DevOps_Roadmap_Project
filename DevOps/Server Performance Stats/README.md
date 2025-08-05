@@ -1,5 +1,7 @@
 # 🖥️ Server Performance Stats Script
 
+![Server Performance Stats](./Screenshot_sps.png)
+
 `server-stats.sh` is a lightweight, portable Bash script that provides essential Linux server performance statistics in a readable format. It's ideal for system administrators, DevOps engineers, and curious users who want a quick snapshot of system health.
 
 ---
