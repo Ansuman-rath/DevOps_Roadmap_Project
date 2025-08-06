@@ -1,7 +1,7 @@
 
 # NGINX Access Log Analyzer (Shell Script)
 
-
+![Nginx Log Analyzer](./Screenshot_nla.png)
 
 [Nginx Log Analyzer](https://roadmap.sh/projects/nginx-log-analyser)
 
@@ -29,8 +29,6 @@ It works with the **default NGINX combined log format**. Minor changes may be re
 chmod +x analyze_nginx_log.sh
 ./analyze_nginx_log.sh nginx-access.log.txt
 ```
-
-Make sure the log file exists and has at least 9 fields per line.
 
 ---
 
