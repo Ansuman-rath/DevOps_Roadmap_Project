@@ -7,4 +7,5 @@ This repository contains DevOps projects built following the [roadmap.sh](https:
 ## Projects List
 
 [Server Performance Stats](https://roadmap.sh/projects/server-stats)\
-[Log Archiver Tool](https://roadmap.sh/projects/log-archive-tool)
+[Log Archiver Tool](https://roadmap.sh/projects/log-archive-tool)\
+[Nginx Log Analyzer](https://roadmap.sh/projects/nginx-log-analyser)
