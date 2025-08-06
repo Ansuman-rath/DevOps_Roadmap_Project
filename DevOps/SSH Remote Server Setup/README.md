@@ -6,6 +6,8 @@ This project walks you through setting up a **remote Linux server** and securing
 
 ---
 
+[SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)
+
 ##  Project Goals
 
 * Launch a remote Linux server (e.g. on DigitalOcean, AWS, Oracle Cloud, GCP)
