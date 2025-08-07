@@ -1,17 +1,19 @@
-# 🚢 Docker Hello Project
+# Docker Hello Project
 
 This project demonstrates how to build a **basic Docker image** using Alpine that prints a greeting message like **"Hello, Captain!"** — and optionally your custom name.
 
-## 🧾 Requirements
+[Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)
+
+## Requirements
 
 - Docker installed
 - Basic familiarity with command line
 
-## 🛠 Files
+## Files
 
 - `Dockerfile` — contains the image instructions
 
-## 🧱 Dockerfile Example
+## Dockerfile Example
 
 ```
 FROM alpine:latest
@@ -22,7 +24,7 @@ ENV NAME=$NAME
 CMD ["sh", "-c", "echo Hello, $NAME!"]
 ```
 
-## 🚀 How to Build
+## How to Build
 
 Build the Docker image (default name is Captain):
 
@@ -33,10 +35,10 @@ docker build -t hello-captain .
 Or pass a custom name:
 
 ```bash
-docker build --build-arg NAME=Ansuman -t hello-ansuman .
+docker build --build-arg NAME=name -t hello-name .
 ```
 
-## ▶️ How to Run
+## How to Run
 
 Run the image:
 
@@ -48,20 +50,14 @@ docker run hello-captain
 Or with the custom name:
 
 ```bash
-docker run hello-ansuman
-# Output: Hello, Ansuman!
+docker run hello-name
+# Output: Hello, name!
 ```
 
-## 💡 Notes
-
-- The `ARG` keyword lets you pass variables at build time.
-- The `ENV` keyword makes the variable available at runtime.
-- The `CMD` uses `sh -c` to evaluate the variable properly.
-
-## 🧼 Clean Up
+## Clean Up
 
 ```bash
-docker rmi hello-captain hello-ansuman
+docker rmi hello-captain hello-name
 ```
 
 ---
