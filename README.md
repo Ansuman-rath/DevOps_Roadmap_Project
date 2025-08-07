@@ -11,5 +11,6 @@ This repository contains DevOps projects built following the [roadmap.sh](https:
 [Nginx Log Analyzer](https://roadmap.sh/projects/nginx-log-analyser)\
 [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)\
 [Static Server Site](https://roadmap.sh/projects/static-site-server)\
-[Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard)
+[Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard)\
+[Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)
 
