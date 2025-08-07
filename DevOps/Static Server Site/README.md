@@ -1,8 +1,8 @@
-# 🚀 Static Site Deployment with Nginx and rsync over SSH
+# Static Site Deployment with Nginx and rsync over SSH
 
 This project demonstrates how to set up and deploy a static website to a remote Linux server using **Nginx** and **rsync over SSH**.
 
-## 📌 Objective
+## Objective
 
 Learn how to:
 - Set up a remote Linux server
@@ -13,7 +13,7 @@ Learn how to:
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - 🔒 SSH
 - 🌐 Nginx
@@ -23,7 +23,7 @@ Learn how to:
 
 ---
 
-## 🛠️ Setup Steps
+## Setup Steps
 
 ### 1. 🔑 Generate SSH Keys
 ```bash
@@ -87,7 +87,7 @@ server {
     server_name _;
 
     root /var/www/mysite;
-    index pomodoro.html;
+    index index.html;
 
     location / {
         try_files $uri $uri/ =404;
@@ -118,16 +118,6 @@ sudo systemctl reload nginx
 Open in your browser:
 ```
 http://<your-ip>/
-```
-
----
-
-## 📂 File Structure
-
-```
-static-site/
-├── pomodoro.html
-├── deploy.sh
 ```
 
 ---
