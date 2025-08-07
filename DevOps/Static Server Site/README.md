@@ -2,6 +2,8 @@
 
 This project demonstrates how to set up and deploy a static website to a remote Linux server using **Nginx** and **rsync over SSH**.
 
+[Static Server Site](https://roadmap.sh/projects/static-site-server)
+
 ## Objective
 
 Learn how to:
