@@ -1,4 +1,4 @@
-# Docker Hello Project
+# Basic Dockerfile
 
 This project demonstrates how to build a **basic Docker image** using Alpine that prints a greeting message like **"Hello, Captain!"** — and optionally your custom name.
 
