@@ -13,5 +13,6 @@ This repository contains DevOps projects built following the [roadmap.sh](https:
 [Static Server Site](https://roadmap.sh/projects/static-site-server)\
 [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard)\
 [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)\
-[Configuration Management](https://roadmap.sh/projects/configuration-management?fl=0)
+[Configuration Management](https://roadmap.sh/projects/configuration-management?fl=0)\
+[Iac on DigitalOcean](https://roadmap.sh/projects/iac-digitalocean)
 
