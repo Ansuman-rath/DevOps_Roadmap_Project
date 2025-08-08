@@ -1,6 +1,11 @@
 
 # Terraform DigitalOcean Droplet
 
+![IaC on DigitalOcean](./Screenshot_dod.png)
+
+[Iac on DigitalOcean](https://roadmap.sh/projects/iac-digitalocean)
+
+
 This project demonstrates the basics of **Infrastructure as Code (IaC)** using **Terraform**.
 It provisions a Linux server (**Droplet**) on DigitalOcean with a public IP and SSH access using a specified SSH key.
 
