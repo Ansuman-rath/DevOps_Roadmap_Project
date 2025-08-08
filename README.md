@@ -12,5 +12,6 @@ This repository contains DevOps projects built following the [roadmap.sh](https:
 [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)\
 [Static Server Site](https://roadmap.sh/projects/static-site-server)\
 [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard)\
-[Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)
+[Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)\
+[Configuration Management](https://roadmap.sh/projects/configuration-management?fl=0)
 
