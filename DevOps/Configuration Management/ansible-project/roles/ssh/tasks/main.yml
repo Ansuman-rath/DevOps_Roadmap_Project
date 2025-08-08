@@ -1,0 +1,6 @@
+---
+- name: Add public key to authorized_keys
+  authorized_key:
+    user: lemon
+    state: present
+    key: "{{ lookup('file', 'files/id_rsa_user1.pub') }}"
