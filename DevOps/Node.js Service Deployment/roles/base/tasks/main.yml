@@ -1,0 +1,14 @@
+---
+- name: Update apt packages
+  apt:
+    update_cache: yes
+    upgrade: dist
+
+- name: Install basic utilities
+  apt:
+    name:
+      - curl
+      - git
+      - ufw
+      - fail2ban
+    state: present

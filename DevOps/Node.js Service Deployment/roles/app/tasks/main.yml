@@ -1,0 +1,39 @@
+---
+- name: Install Node.js and npm
+  apt:
+    name: ['nodejs', 'npm']
+    state: present
+    update_cache: yes
+  become: yes
+
+- name: Install PM2 globally
+  npm:
+    name: pm2
+    global: yes
+  become: yes
+
+- name: Copy Node.js service files
+  copy:
+    src: node-service/
+    dest: /var/www/node-service
+  become: yes
+
+- name: Install app dependencies
+  npm:
+    path: /var/www/node-service
+    production: yes
+  become: yes
+
+- name: Start the app with PM2
+  command: pm2 start app.js --name "node-service" --watch
+  args:
+    chdir: /var/www/node-service
+  become: yes
+
+- name: Save PM2 process list
+  command: pm2 save
+  become: yes
+
+- name: Enable PM2 startup
+  command: pm2 startup systemd -u root --hp /root
+  become: yes
