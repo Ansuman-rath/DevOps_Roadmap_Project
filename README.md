@@ -56,6 +56,7 @@ The projects are structured to provide hands-on experience with:
 | [**Configuration Management**](https://roadmap.sh/projects/configuration-management) | Automate server configuration and management | Ansible/Puppet/Chef | ⭐⭐⭐ |
 | [**Infrastructure as Code on DigitalOcean**](https://roadmap.sh/projects/iac-digitalocean) | Deploy infrastructure using IaC principles | Terraform, Cloud Platforms | ⭐⭐⭐⭐ |
 | [**Node.js Service Deployment**](https://roadmap.sh/projects/nodejs-service-deployment) | Node.js Service Deployment  | Terraform, Ansible, Github Actions, Cloud Platforms | ⭐⭐⭐⭐ |
+| [**Dockerized Service**](https://roadmap.sh/projects/dockerized-service-deployment) | Dockerized Service | Docker, Github Actions, Cloud Platforms | ⭐⭐⭐⭐ |
 
 ## ✅ Prerequisites
 
