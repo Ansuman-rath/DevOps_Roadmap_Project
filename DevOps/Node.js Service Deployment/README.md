@@ -2,6 +2,8 @@
 
 # Node.js Service Deployment with Terraform, Ansible & GitHub Actions
 
+[Node.js Service Deployment](https://roadmap.sh/projects/nodejs-service-deployment)
+
 ## 📌 Project Overview
 
 This project demonstrates a **complete CI/CD pipeline** to deploy a Node.js service to a DigitalOcean Droplet.
