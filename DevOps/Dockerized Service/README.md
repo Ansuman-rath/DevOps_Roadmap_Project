@@ -1,35 +1,95 @@
-# Dockerized Service
+# Node.js Service - PM2 Setup Guide
 
-This folder contains a simple Dockerized service setup.
+This project demonstrates how to run a Node.js application as a background service using **PM2**.
 
-## Structure
+## 📌 Prerequisites
+- **Node.js** (v14 or later)
+- **npm** (comes with Node.js)
+- **PM2** process manager
 
-- **Dockerfile**: Defines the Docker image configuration.
-- **docker-compose.yml**: Defines and runs the Dockerized service.
-- **app/**: Application source code.
+---
 
-## Usage
+## 🚀 Installation
 
-### 1. Build the Docker Image
+1. **Clone the Repository**
 ```bash
-docker build -t my-service .
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
 ```
 
-### 2. Run with Docker Compose
+2. **Install Dependencies**
 ```bash
-docker-compose up -d
+npm install
 ```
 
-### 3. Check Running Containers
+3. **Install PM2 Globally**
 ```bash
-docker ps
+npm install -g pm2
 ```
 
-### 4. Stop the Service
+---
+
+## ▶️ Starting the App with PM2
+
 ```bash
-docker-compose down
+pm2 start app.js --name "node-service"
 ```
 
-## Notes
-- Make sure Docker and Docker Compose are installed on your system.
-- Modify the `Dockerfile` and `docker-compose.yml` as per your application requirements.
+- `--name "node-service"` gives your process a readable name.
+- You can replace `app.js` with your actual entry file path.
+
+---
+
+## 🔍 Checking Running Processes
+```bash
+pm2 list
+```
+
+To view logs in real-time:
+```bash
+pm2 logs node-service
+```
+
+---
+
+## ⏹ Stopping & Restarting
+Stop the process:
+```bash
+pm2 stop node-service
+```
+
+Restart the process:
+```bash
+pm2 restart node-service
+```
+
+Delete the process from PM2:
+```bash
+pm2 delete node-service
+```
+
+---
+
+## 💾 Auto-Start on Server Reboot
+```bash
+pm2 startup
+pm2 save
+```
+
+- `pm2 startup` generates a command — copy & run it.
+- `pm2 save` saves the current running processes so PM2 can restore them after reboot.
+
+---
+
+## 📂 Project Structure
+```
+project-folder/
+│── app.js
+│── package.json
+│── README.md
+```
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
