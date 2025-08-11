@@ -12,7 +12,6 @@ A comprehensive collection of hands-on DevOps projects designed to build practic
 - [Technologies Used](#technologies-used)
 - [Learning Outcomes](#learning-outcomes)
 - [Contributing](#contributing)
-- [Connect](#connect)
 
 ## 🎯 About
 
@@ -56,6 +55,7 @@ The projects are structured to provide hands-on experience with:
 | [**Basic Dockerfile**](https://roadmap.sh/projects/basic-dockerfile) | Create optimized Docker containers for applications | Docker, Containerization | ⭐⭐ |
 | [**Configuration Management**](https://roadmap.sh/projects/configuration-management) | Automate server configuration and management | Ansible/Puppet/Chef | ⭐⭐⭐ |
 | [**Infrastructure as Code on DigitalOcean**](https://roadmap.sh/projects/iac-digitalocean) | Deploy infrastructure using IaC principles | Terraform, Cloud Platforms | ⭐⭐⭐⭐ |
+| [**Node.js Service Deployment**](https://roadmap.sh/projects/nodejs-service-deployment) | Node.js Service Deployment  | Terraform, Ansible, Github Actions, Cloud Platforms | ⭐⭐⭐⭐ |
 
 ## ✅ Prerequisites
 
