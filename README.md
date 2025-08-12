@@ -48,6 +48,7 @@ The projects are structured to provide hands-on experience with:
 | [**SSH Remote Server Setup**](https://roadmap.sh/projects/ssh-remote-server-setup) | Configure secure SSH access to remote servers | SSH, Security, Linux Administration | ⭐⭐ |
 | [**Static Server Site**](https://roadmap.sh/projects/static-site-server) | Deploy and serve static websites | Web Servers, HTTP, DNS | ⭐⭐ |
 | [**Bastion Host**](https://roadmap.sh/projects/bastion-host) | Set up a secure bastion host for accessing private infrastructure | SSH Tunneling, Network Security, Jump Box | ⭐⭐⭐ |
+| [**File Integrity Checker**](https://roadmap.sh/projects/file-integrity-checker) | File Integrity Checker | Python, Hashing Algorithms, Security | ⭐⭐⭐ |
 
 ### 🐳 Containerization & IaC
 
@@ -186,6 +187,7 @@ Track your learning journey:
 - [ ] Bastion Host
 - [ ] Dockerized Service
 - [ ] Node.js Service Deployment
+- [ ] File Integrity Checker
 
 ## 💡 Next Steps
 
