@@ -1,0 +1,11 @@
+Host bastion
+    HostName <IP>
+    User root
+    IdentityFile <ssh key>
+    ForwardAgent yes
+
+Host private-server
+    HostName <IP>
+    User root
+    ProxyJump bastion
+    ForwardAgent yes
