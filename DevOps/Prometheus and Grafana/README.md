@@ -6,6 +6,7 @@
 
 ![Grafana](./Screenshot_g.png)
 
+[Prometheus and Grafana](https://roadmap.sh/projects/monitoring)
 
 This project sets up a complete server monitoring solution using **Prometheus**, **Node Exporter**, and **Grafana** running in Docker containers.
 
