@@ -1,0 +1,61 @@
+version: "3.9"
+
+services:
+  consul:
+    image: hashicorp/consul:1.19
+    command: ["agent","-dev","-client=0.0.0.0","-ui"]
+    ports:
+      - "8500:8500"
+      - "8600:8600/udp"
+    networks:
+      - appnet
+
+  gateway:
+    build: ./gateway
+    environment:
+      - CONSUL_HTTP_ADDR=http://consul:8500
+    depends_on:
+      - consul
+    ports:
+      - "8080:8080"
+    networks:
+      - appnet
+
+  service-a:
+    build: ./services/dummy
+    environment:
+      - SERVICE_NAME=service-a
+      - SERVICE_PORT=3001
+      - SERVICE_ADDRESS=service-a
+      - CONSUL_HTTP_ADDR=http://consul:8500
+    depends_on:
+      - consul
+    networks:
+      - appnet
+
+  service-b:
+    build: ./services/dummy
+    environment:
+      - SERVICE_NAME=service-b
+      - SERVICE_PORT=3002
+      - SERVICE_ADDRESS=service-b
+      - CONSUL_HTTP_ADDR=http://consul:8500
+    depends_on:
+      - consul
+    networks:
+      - appnet
+
+  service-c:
+    build: ./services/dummy
+    environment:
+      - SERVICE_NAME=service-c
+      - SERVICE_PORT=3003
+      - SERVICE_ADDRESS=service-c
+      - CONSUL_HTTP_ADDR=http://consul:8500
+    depends_on:
+      - consul
+    networks:
+      - appnet
+
+networks:
+  appnet:
