@@ -33,7 +33,7 @@ The projects are structured to provide hands-on experience with:
 |---------|-------------|------------------|------------|
 | [**Server Performance Stats**](https://roadmap.sh/projects/server-stats) | Monitor and analyze server performance metrics | Bash, System Monitoring | ⭐⭐ |
 | [**Simple Monitoring Dashboard**](https://roadmap.sh/projects/simple-monitoring-dashboard) | Create a basic monitoring dashboard for system metrics | Monitoring Tools, Visualization | ⭐⭐⭐ |
-| [**Prometheus and Grafana**](https://roadmap.sh/projects/monitoring) | Add Prometheus and Grafana for monitoring | Prometheus, Grafana, Monitoring, Node exporter | ⭐⭐⭐⭐⭐|
+| [**Prometheus and Grafana**](https://roadmap.sh/projects/monitoring) | Add Prometheus and Grafana for monitoring | Prometheus, Grafana, Monitoring, Node exporter | ⭐⭐⭐⭐|
 
 ### 📊 Log Management & Analysis
 
@@ -60,6 +60,7 @@ The projects are structured to provide hands-on experience with:
 | [**Infrastructure as Code on DigitalOcean**](https://roadmap.sh/projects/iac-digitalocean) | Deploy infrastructure using IaC principles | Terraform, Cloud Platforms | ⭐⭐⭐⭐ |
 | [**Node.js Service Deployment**](https://roadmap.sh/projects/nodejs-service-deployment) | Node.js Service Deployment  | Terraform, Ansible, Github Actions, Cloud Platforms | ⭐⭐⭐⭐ |
 | [**Dockerized Service**](https://roadmap.sh/projects/dockerized-service-deployment) | Dockerized Service | Docker, Github Actions, Cloud Platforms | ⭐⭐⭐⭐ |
+| [**Service Discovery**](https://roadmap.sh/projects/service-discovery) | Implement service discovery for microservices architecture | Consul, etcd, Service Mesh | ⭐⭐⭐⭐ |
 
 ## ✅ Prerequisites
 
@@ -190,6 +191,7 @@ Track your learning journey:
 - [ ] Node.js Service Deployment
 - [ ] File Integrity Checker
 - [ ] Prometheus and Grafana
+- [ ] Service Discovery
 
 ## 💡 Next Steps
 
