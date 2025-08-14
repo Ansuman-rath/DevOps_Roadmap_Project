@@ -33,6 +33,7 @@ The projects are structured to provide hands-on experience with:
 |---------|-------------|------------------|------------|
 | [**Server Performance Stats**](https://roadmap.sh/projects/server-stats) | Monitor and analyze server performance metrics | Bash, System Monitoring | ⭐⭐ |
 | [**Simple Monitoring Dashboard**](https://roadmap.sh/projects/simple-monitoring-dashboard) | Create a basic monitoring dashboard for system metrics | Monitoring Tools, Visualization | ⭐⭐⭐ |
+| [**Prometheus and Grafana**](https://roadmap.sh/projects/monitoring) | Add Prometheus and Grafana for monitoring | Prometheus, Grafana, Monitoring, Node exporter | ⭐⭐⭐⭐⭐|
 
 ### 📊 Log Management & Analysis
 
@@ -188,6 +189,7 @@ Track your learning journey:
 - [ ] Dockerized Service
 - [ ] Node.js Service Deployment
 - [ ] File Integrity Checker
+- [ ] Prometheus and Grafana
 
 ## 💡 Next Steps
 
