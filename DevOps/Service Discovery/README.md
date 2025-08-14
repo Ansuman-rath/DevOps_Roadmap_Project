@@ -1,6 +1,11 @@
 
 # Service Discovery with Consul, Dummy Services, and API Gateway
 
+![Service Discovery](./Screenshot_sd.png)
+
+---
+[Service Discovery](https://roadmap.sh/projects/service-discovery)
+
 This project demonstrates **service discovery** in a microservices architecture using **HashiCorp Consul**.  
 It includes:
 - 3 dummy services (`service-a`, `service-b`, `service-c`)
