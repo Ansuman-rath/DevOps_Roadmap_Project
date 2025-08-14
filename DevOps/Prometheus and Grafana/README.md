@@ -1,5 +1,11 @@
 # Server Monitoring Stack (Prometheus + Node Exporter + Grafana)
 
+![Prometheus](./Screenshot_p.png)
+
+---
+
+![Grafana](./Screenshot_g.png)
+
 
 This project sets up a complete server monitoring solution using **Prometheus**, **Node Exporter**, and **Grafana** running in Docker containers.
 
