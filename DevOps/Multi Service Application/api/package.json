@@ -1,0 +1,16 @@
+{
+  "name": "multi-service-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=development node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "redis": "^4.7.0",
+    "cors": "^2.8.5"
+  }
+}
