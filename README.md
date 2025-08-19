@@ -61,6 +61,7 @@ The projects are structured to provide hands-on experience with:
 | [**Node.js Service Deployment**](https://roadmap.sh/projects/nodejs-service-deployment) | Node.js Service Deployment  | Terraform, Ansible, Github Actions, Cloud Platforms | ⭐⭐⭐⭐ |
 | [**Dockerized Service**](https://roadmap.sh/projects/dockerized-service-deployment) | Dockerized Service | Docker, Github Actions, Cloud Platforms | ⭐⭐⭐⭐ |
 | [**Service Discovery**](https://roadmap.sh/projects/service-discovery) | Implement service discovery for microservices architecture | Consul, etcd, Service Mesh | ⭐⭐⭐⭐ |
+| [**Multi-Service Application**](https://roadmap.sh/projects/multiservice-docker) | Build and orchestrate multi-container applications | Docker Compose, Multi-container Apps | ⭐⭐⭐⭐ |
 
 ## ✅ Prerequisites
 
@@ -192,4 +193,5 @@ Track your learning journey:
 - [ ] File Integrity Checker
 - [ ] Prometheus and Grafana
 - [ ] Service Discovery
+- [ ] Multi Service Application
 
