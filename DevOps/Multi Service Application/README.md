@@ -4,6 +4,8 @@
 This project demonstrates how to containerize and run a **full-stack application** using **Docker Compose**.  
 It consists of multiple services (frontend, backend, database, cache, and reverse proxy) running in isolated containers, communicating through a common network.
 
+[Multi-Service Application](https://roadmap.sh/projects/multiservice-docker)
+
 ---
 
 ## 🚀 Objectives
