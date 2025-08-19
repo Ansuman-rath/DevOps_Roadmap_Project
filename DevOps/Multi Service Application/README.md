@@ -89,7 +89,7 @@ multi-service-docker-app/
 * Secured MongoDB with **secrets**.
 * Fixed common Docker issues:
 
-  * Port conflicts (`3000` → changed to `3001`).
+  * Port conflicts
   * Missing secret files.
   * File vs directory mount errors in Nginx.
 
